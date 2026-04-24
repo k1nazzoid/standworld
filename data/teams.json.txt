@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Nova",
+    "region": "EU",
+    "winrate": 78
+  },
+  {
+    "name": "Alpha",
+    "region": "NA",
+    "winrate": 72
+  },
+  {
+    "name": "Vortex",
+    "region": "CIS",
+    "winrate": 81
+  }
+]

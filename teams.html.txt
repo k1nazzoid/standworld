@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teams - StandWorld</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Teams Ranking</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="players.html">Players</a>
+    <a href="teams.html">Teams</a>
+  </nav>
+</header>
+
+<div id="teams" class="list"></div>
+
+<script src="js/app.js"></script>
+<script>loadTeams();</script>
+
+</body>
+</html>

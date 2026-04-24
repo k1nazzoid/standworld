@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>StandWorld.gg</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">StandWorld.gg</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="players.html">Players</a>
+    <a href="teams.html">Teams</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Global Standoff 2 Rankings</h1>
+  <p>Modern competitive ranking system for players & teams worldwide</p>
+</section>
+
+<section class="grid">
+  <div class="card">
+    <h2>🏆 Top Players</h2>
+    <p>Live global ranking leaderboard</p>
+  </div>
+
+  <div class="card">
+    <h2>🔥 Top Teams</h2>
+    <p>Best competitive organizations</p>
+  </div>
+
+  <div class="card">
+    <h2>🌍 Regions</h2>
+    <p>EU / NA / Asia / CIS rankings</p>
+  </div>
+</section>
+
+</body>
+</html>

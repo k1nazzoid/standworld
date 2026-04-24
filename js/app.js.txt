@@ -1,0 +1,35 @@
+function loadPlayers() {
+  fetch("data/players.json")
+    .then(res => res.json())
+    .then(data => {
+      let box = document.getElementById("players");
+
+      data.forEach(p => {
+        box.innerHTML += `
+          <div class="item">
+            <b>${p.country} ${p.name}</b><br>
+            Team: ${p.team}<br>
+            Rating: ${p.rating}
+          </div>
+        `;
+      });
+    });
+}
+
+function loadTeams() {
+  fetch("data/teams.json")
+    .then(res => res.json())
+    .then(data => {
+      let box = document.getElementById("teams");
+
+      data.forEach(t => {
+        box.innerHTML += `
+          <div class="item">
+            <b>${t.name}</b><br>
+            Region: ${t.region}<br>
+            Win Rate: ${t.winrate}%
+          </div>
+        `;
+      });
+    });
+}

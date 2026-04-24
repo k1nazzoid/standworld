@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ShadowX",
+    "country": "🇩🇪",
+    "team": "Nova",
+    "rating": 1.32
+  },
+  {
+    "name": "AcePro",
+    "country": "🇺🇸",
+    "team": "Alpha",
+    "rating": 1.21
+  },
+  {
+    "name": "Zyro",
+    "country": "🇷🇺",
+    "team": "Vortex",
+    "rating": 1.40
+  }
+]
